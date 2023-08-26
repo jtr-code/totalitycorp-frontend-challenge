@@ -1,0 +1,80 @@
+.herosection-container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 12rem;
+    height: calc(100vh - 96px);
+}
+
+.herosection-container .hero-section-data .intro-data {
+    text-align: start;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #5138ee;
+}
+
+.herosection-container .hero-section-data p,
+.herosection-container .hero-section-data button {
+    margin: 2rem 0;
+    color: rgba(29, 29, 29, 0.8);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.herosection-container .hero-section-data button {
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(98, 84, 243);
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: all 0.2s ease;
+}
+
+.herosection-container .hero-section-data button:hover {
+    letter-spacing: 0.12rem;
+}
+
+.herosection-container .hero-section-data h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(24, 24, 29);
+}
+
+.herosection-container .hero-section-data .intro-data {
+    margin-bottom: 0;
+}
+
+.herosection-container .hero-section-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herosection-container .img-style {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 929px) {
+    .herosection-container {
+        padding: 1rem;
+    }
+
+    .herosection-container .grid {
+        gap: 1rem;
+    }
+    .herosection-container .grid-two-column,
+    .herosection-container .grid-three-column,
+    .herosection-container .grid-four-column {
+        grid-template-columns: 1fr;
+    }
+}
